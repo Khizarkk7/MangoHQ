@@ -33,5 +33,3 @@ flowchart LR
 
 
 
-[Khizar Saqib](https://github.com/Khizarkk7)
-
