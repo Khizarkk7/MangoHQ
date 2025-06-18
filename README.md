@@ -1,11 +1,12 @@
 
-# # <img src="images/image.png" alt="MangoHQ Logo" width="40" height="40"> MangoHQ - Premium Mangoes E-Commerce Platform
+## <img src="images/image.png" alt="MangoHQ Logo" width="40" height="40"> MangoHQ - Premium Mangoes E-Commerce Platform
 
 ![MangoHQ Banner](https://images.unsplash.com/photo-1603569283847-aa295f0d016a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1400&q=80)
 
 <div align="center">
-  <img src="images/image.png" alt="MangoHQ Logo" width="150" style="margin: 20px 0">
+  <img src="images/image.png" alt="MangoHQ Logo" width="1400" style="margin: 80px 0">
 </div>
+
 ##  Overview
 MangoHQ is a modern e-commerce platform specializing in premium White Chaunsa mangoes, offering Special packages with both online payment and COD options.
 
