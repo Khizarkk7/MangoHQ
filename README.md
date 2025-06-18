@@ -31,6 +31,7 @@ flowchart LR
     C --> F[User Profiles]
     D --> G[Order Confirmations]
 
-<h2> Made By </h2>
+
 
 [Khizar Saqib](https://github.com/Khizarkk7)
+
