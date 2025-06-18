@@ -20,9 +20,6 @@ MangoHQ is a modern e-commerce platform specializing in premium White Chaunsa ma
 - ✉️ Automated order confirmation emails
 - ⭐ Customer review system
 
-## Made by
-<div align="center" style="margin: 40px 0; padding: 20px; background: #f8f9fa; border-radius: 10px;"> <a href="https://github.com/Khizarkk7" style="text-decoration: none;"> <img src="https://avatars.githubusercontent.com/u/12345678?v=4" alt="Khizar Saqib" width="120" style="border-radius: 50%; border: 3px solid #FFD700; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"> <br> <strong style="font-size: 1.2em; color: #333; margin-top: 10px;">Khizar Saqib</strong> <p style="color: #666; margin-top: 5px;">Full Stack Developer</p> <img src="https://img.shields.io/github/followers/Khizarkk7?style=social" alt="GitHub followers"> </a> </div>
-
 ##  Technical Architecture
 
 ```mermaid
