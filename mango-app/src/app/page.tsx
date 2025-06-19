@@ -11,7 +11,10 @@ export default function Home() {
           Welcome to MangoHeadquarter!
         </h1>
       
-
+      <h1 className="text-4xl font-bold text-primary text-center py-8">
+          Premium from farm !
+        </h1>
+      
 
 
       </main>
