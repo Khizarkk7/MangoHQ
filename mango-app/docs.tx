@@ -1,0 +1,10 @@
+these are the libraries which i am using it 
+ "dependencies": {
+    "axios": "^1.10.0",       by KS-Dev
+    "bcryptjs": "^3.0.2",     by KS-Dev
+    "jsonwebtoken": "^9.0.2", by KS-Dev
+    "next": "15.3.4",
+    "nodemailer": "^7.0.3",   by KS-Dev
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
