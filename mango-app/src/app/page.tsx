@@ -1,14 +1,11 @@
 'use client';
 
-import { useEffect, useState } from 'react';
-import { supabase } from '../lib/supabaseClient';
-import { color } from "framer-motion";
-import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
-import { Star, ShoppingCart, Truck, Shield, Award } from "lucide-react"
-import Image from "next/image"
-import Link from "next/link"
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
+import { Award, Shield, ShoppingCart, Star, Truck } from "lucide-react";
+import Image from "next/image";
+import Link from "next/link";
 
 export default function Component() {
   return (
@@ -25,6 +22,9 @@ export default function Component() {
           <nav className="hidden md:flex items-center space-x-6">
             <Link href="#" className="text-gray-600 hover:text-orange-600 transition-colors">
               Shop
+            </Link>
+            <Link href="#" className="text-gray-600 hover:text-orange-600 transition-colors">
+              yasir
             </Link>
             <Link href="#" className="text-gray-600 hover:text-orange-600 transition-colors">
               About
