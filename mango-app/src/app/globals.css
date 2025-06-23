@@ -9,12 +9,12 @@
 /* globals.css */
 body {
   font-family: 'Open Sans', sans-serif;
-  background-color: #FFF8E1;
+  background-color: white;
   /* color:#4CAF50 ; */
 }
 h1, h2, h3 {
   font-family: 'Poppins', sans-serif;
   /* color: #FFD700; */
-   color:#4CAF50 ;
+   color: black ;
 }
 

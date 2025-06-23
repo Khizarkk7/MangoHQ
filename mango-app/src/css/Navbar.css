@@ -1,0 +1,178 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+/* styles/Navbar.module.css */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 36px;
+  background: #fff;
+  font-family: serif;
+  position: relative;
+}
+
+.logo {
+  font-size: 2.2rem;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.nav {
+  display: flex;
+  gap: 42px;
+  position: relative;
+  transition: max-height 0.3s;
+}
+
+.link {
+  position: relative;
+  font-size: 1.4rem;
+  /* color: #4b4b3b; */
+  color: black;
+  text-decoration: none;
+  padding: 4px 0;   
+  display: flex;
+  align-items: center;
+  transition: color 0.2s;
+}
+
+.link:hover {
+  color: rgb(177, 123, 22);
+}
+
+.arrow {
+  font-size: 0.7em;
+  margin-left: 5px;
+}
+
+.underline {
+  display: block;
+  height: 2px;
+  width: 0%;
+  background: #a48c5e;
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  transition: width 0.3s;
+}
+
+.underlineActive {
+  width: 100%;
+}
+
+.icons {
+  display: flex;
+  gap: 22px;
+  align-items: center;
+}
+
+.icon, .iconBadge {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.badge {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background: #5d512f;
+  color: #fff;
+  font-size: 0.7rem;
+  border-radius: 50%;
+  padding: 1px 5px;
+  font-family: sans-serif;
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 4px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: 18px;
+}
+
+.hamburger span {
+  display: block;
+  width: 26px;
+  height: 3px;
+  background: #4b4b3b;
+  border-radius: 2px;
+  transition: all 0.3s;
+}
+
+/* Responsive styles */
+@media (max-width: 900px) {
+  .nav {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    background: #fff;
+    flex-direction: column;
+    gap: 22px;
+    align-items: center;
+    max-height: 0;
+    overflow: hidden;
+    z-index: 100;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.03);
+  }
+  .nav.open {
+    max-height: 300px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #eee;
+  }
+  .hamburger {
+    display: flex;
+  }
+}
+
+/* SEARCH ICON CSS FROM HERE */
+
+body{
+  background: #f2f2f2;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #00B4CC;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
