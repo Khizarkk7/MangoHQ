@@ -24,8 +24,8 @@ MangoHQ is a modern e-commerce platform specializing in premium White Chaunsa ma
 
 ```mermaid
 flowchart LR
-    A[Next.js Frontend] -->|API Calls| B[Firebase Firestore]
-    A -->|Authentication| C[Firebase Auth]
+    A[Next.js Frontend] -->|API Calls| B[SupaBase]
+    A -->|Authentication| C[SupaBase Auth]
     A -->|Payments| D[Stripe]
     B --> E[Admin Dashboard]
     C --> F[User Profiles]
